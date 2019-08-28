@@ -1,0 +1,21 @@
+def hello(person, one):
+    print("{0},{1},你怎么了？".format(person, one))
+    print("Sir, 你能理解我么？")
+k = "李刚"
+o = "小米"
+hello(k, o)
+
+def hello(person, one):
+    print("{0},{1},你怎么了？".format(person, one))
+    return "哈哈，我提前结束了"
+    print("Sir, 你能理解我么？")
+k = "李刚"
+o = "小米"
+hello(k, o)
+
+
+for row in range(1,10):
+    for col in range(1,row+1):
+        print(row*col, end = ' ')
+    print("....")
+# 打印九九乘法表
